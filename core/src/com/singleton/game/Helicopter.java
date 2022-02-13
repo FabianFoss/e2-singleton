@@ -16,7 +16,7 @@ public class Helicopter {
         return heliInstance;
     }
 
-    public Helicopter(){
+    private Helicopter(){
         heli = new Sprite(new Texture("helicopter.png"));
         position = new Vector3(0,0,0);
         velocity = new Vector3(7,7,0);
